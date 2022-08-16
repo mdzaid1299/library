@@ -1,7 +1,7 @@
 public class Book {
     private String title;
-    private int year_Of_Publication;
-    private long isbn;
+    private int PublicationYear;
+    private long ISBN;
     private String authorName;
     public void setTitle(String title){
         this.title = title;
@@ -9,18 +9,18 @@ public class Book {
     public String getTitle(){
         return  title;
     }
-    public void setYear_Of_Publication(int year_Of_Publication){
-        this.year_Of_Publication = year_Of_Publication;
+    public void PublicationYear(int year_Of_Publication){
+        this.PublicationYear = year_Of_Publication;
     }
-    public int getYear_Of_Publication(){
-        return year_Of_Publication;
+    public int PublicationYear(){
+        return PublicationYear;
     }
     public void setIsbn(long isbn){
-        this.isbn = isbn;
+        this.ISBN = isbn;
 
     }
     public long getIsbn(){
-        return isbn;
+        return ISBN;
     }
     public void setAuthorName(String authorName){
         this.authorName = authorName;
