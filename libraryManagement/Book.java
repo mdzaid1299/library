@@ -9,10 +9,10 @@ public class Book {
     public String getTitle(){
         return  title;
     }
-    public void PublicationYear(int year_Of_Publication){
+    public void setPublicationYear(int year_Of_Publication){
         this.PublicationYear = year_Of_Publication;
     }
-    public int PublicationYear(){
+    public int getPublicationYear(){
         return PublicationYear;
     }
     public void setIsbn(long isbn){
